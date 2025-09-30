@@ -36,7 +36,8 @@ public class BasicCalculator {
             result = firstNum / secondNum;
         } else {
             System.out.println("Please provide a valid  operation");
+            System.exit(0);
         }
-        System.out.printf("The result of %sing %d and %d is %d", operation, firstNum, secondNum, result);
+            System.out.printf("The result of %sing %d and %d is %d", operation, firstNum, secondNum, result);
     }
 }
