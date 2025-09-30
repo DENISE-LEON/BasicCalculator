@@ -18,10 +18,10 @@ public class PayRollCalculator {
 
         //ask for pay rate and hours, get input from user
         System.out.println("How many hours did you work?");
-        double hours = scanner.nextInt();
+        double hours = scanner.nextDouble();
 
         System.out.println("What is your pay rate");
-        double payRate = scanner.nextInt();
+        double payRate = scanner.nextDouble();
 
         // defining gross pay
         double grossPay = payCalculator(hours, payRate);
